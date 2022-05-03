@@ -50,7 +50,8 @@ defmodule DockexWeb.MixProject do
       {:gettext, "~> 0.18"},
       {:dockex, in_umbrella: true},
       {:jason, "~> 1.2"},
-      {:plug_cowboy, "~> 2.5"}
+      {:plug_cowboy, "~> 2.5"},
+      {:libcluster, "~> 3.3"}
     ]
   end
 
