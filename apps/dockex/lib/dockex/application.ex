@@ -17,5 +17,6 @@ defmodule Dockex.Application do
     ]
 
     Supervisor.start_link(children, strategy: :one_for_one, name: Dockex.Supervisor)
+    Dockex.Cluster.start_link([])
   end
 end
